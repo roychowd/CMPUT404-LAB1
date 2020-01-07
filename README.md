@@ -19,17 +19,6 @@ For http://www.google.com/teapot:
 
 with -i and -iL you get a 418 status. 
 
-7. without it -X POST field we get "<P>No form fields.". However, with it we get the lines represented here: "
-<H3>Form Contents:</H3>
+7. without it -X POST field we get "No form fields.". However, with it we get the lines represented here: MiniFieldStorage('X', 'Y')"
 
-<DL>
-
-<DT>X: <i>&lt;type 'instance'&gt;</i>
-
-<DD>MiniFieldStorage('X', 'Y')
-
-</DL>
-
-"
-
-The -X header helps you deteremine what kind of request you want to send (by default GET REQUEST). So when you do -X POST - it tells curl to do a post request.
+Therefore -X header helps you deteremine what kind of request you want to send (by default GET REQUEST). So when you do -X POST, it tells curl to do a post request.
