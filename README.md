@@ -1,4 +1,5 @@
-1. https://github.com/roychowd
+1. https://github.com/roychowd is my github user account
+The link to the github repository for the lab is: https://github.com/roychowd/CMPUT404-LAB1/
 
 2. Version is : 2.22.0
 
@@ -22,3 +23,6 @@ with -i and -iL you get a 418 status.
 7. without it -X POST field we get "No form fields.". However, with it we get the lines represented here: MiniFieldStorage('X', 'Y')"
 
 Therefore -X header helps you deteremine what kind of request you want to send (by default GET REQUEST). So when you do -X POST, it tells curl to do a post request.
+
+
+8. https://raw.githubusercontent.com/roychowd/CMPUT404-LAB1/master/test.py
